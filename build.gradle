@@ -1,0 +1,17 @@
+apply plugin: 'groovy'
+apply plugin: 'idea'
+
+repositories {
+    mavenCentral()
+}
+
+// https://mvnrepository.com/artifact/org.codehaus.groovy.modules.scriptom/scriptom-all-assembly
+dependencies {
+    //compile group: 'org.codehaus.groovy.modules.scriptom', name: 'scriptom-all-assembly', version: '1.6.0'
+    compile group: 'org.codehaus.groovy.modules.scriptom', name: 'scriptom', version: '1.6.0'
+    compile group: 'org.codehaus.groovy', name: 'groovy', version: '2.4.7'
+}
+
+
+
+
